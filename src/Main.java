@@ -32,7 +32,7 @@ public class Main {
             sum += salary[i];
         }
         float average = (float) sum / salary.length;
-        System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила " + average + " рублей\n");
 
         // task #4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
