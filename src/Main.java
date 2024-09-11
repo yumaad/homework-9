@@ -36,13 +36,9 @@ public class Main {
 
         // task #4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = 0; i < reverseFullName.length / 2; i++)
+        for (int i = reverseFullName.length-1; i >= 0; i--)
         {
-                char helper = reverseFullName[i];
-                reverseFullName[i] = reverseFullName[reverseFullName.length-1-i];
-                reverseFullName[reverseFullName.length-1-i] = helper;
+            System.out.print(reverseFullName[i]);
         }
-        System.out.println(reverseFullName);
-
     }
 }
